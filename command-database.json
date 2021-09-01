@@ -1,0 +1,223 @@
+[
+  {
+    "name": "TalkShow",
+    "description": "Tạo button talkshow",
+    "aliases": [
+      "ts"
+    ],
+    "category": "admin"
+  },
+  {
+    "name": "prefix",
+    "category": "admin",
+    "description": "Sets the prefix for this server.",
+    "usage": "prefix <newPrefix>"
+  },
+  {
+    "name": "backup-create",
+    "aliases": [
+      "bc"
+    ],
+    "category": "backup",
+    "usage": "backup-create",
+    "description": "Tạo backup cho máy chủ"
+  },
+  {
+    "name": "backup-info",
+    "aliases": [],
+    "category": "backup"
+  },
+  {
+    "name": "backup-load",
+    "aliases": [
+      "bload"
+    ],
+    "category": "backup",
+    "usage": "backup-load",
+    "description": "load a server backup"
+  },
+  {
+    "name": "fish",
+    "aliases": [
+      "catchfish"
+    ],
+    "category": "economy",
+    "description": "Catch A Fish From A Vast Ocean",
+    "usage": "[list | rewards] (optional)",
+    "acessableby": "everyone"
+  },
+  {
+    "name": "pay",
+    "noalias": [
+      ""
+    ],
+    "category": "economy",
+    "description": "Pay to Somebody",
+    "usage": "[mention | ID] <amount>",
+    "accessableby": "everyone"
+  },
+  {
+    "name": "pray",
+    "aliases": [
+      "pray"
+    ],
+    "category": "economy",
+    "description": "Cầu nguyện",
+    "usage": " ",
+    "accessableby": "everyone"
+  },
+  {
+    "name": "end",
+    "description": "Ending giveaway",
+    "accessableby": "Administrator",
+    "category": "giveaway",
+    "aliases": [
+      "giveaway-end"
+    ],
+    "usage": "<giveawaymessageid>"
+  },
+  {
+    "name": "reroll",
+    "description": "Get list of all command and even get to know every command detials",
+    "usage": "help <cmd>",
+    "category": "giveaway"
+  },
+  {
+    "name": "giveaway",
+    "description": "Creating giveaway",
+    "accessableby": "Administrator",
+    "category": "giveaways",
+    "aliases": [
+      "giveaway",
+      "ga"
+    ],
+    "usage": "start <duration> <winners>, <prize>"
+  },
+  {
+    "name": "baolanh",
+    "aliases": [
+      "baolanh",
+      "bl"
+    ],
+    "category": "info",
+    "description": "baolanh",
+    "usage": "baolanh",
+    "acessableby": "everyone"
+  },
+  {
+    "name": "baucua",
+    "aliases": [
+      "baucua",
+      "bc"
+    ],
+    "category": "info",
+    "description": "baucua",
+    "usage": "baucua",
+    "accessableby": ""
+  },
+  {
+    "name": "checkbaolanh",
+    "aliases": [
+      "cbl",
+      "kiemtra"
+    ],
+    "category": "admin",
+    "description": "check BL <user>",
+    "usage": "check BL <user>"
+  },
+  {
+    "name": "commands",
+    "aliases": [
+      "c"
+    ],
+    "category": "info",
+    "description": "Displays a full list of bot commands.",
+    "usage": "commands"
+  },
+  {
+    "name": "help",
+    "aliases": [
+      "h"
+    ],
+    "category": "info",
+    "description": "Displays bot help message.",
+    "usage": "help [commandName]"
+  },
+  {
+    "name": "math",
+    "category": "info"
+  },
+  {
+    "name": "pick",
+    "category": "info",
+    "description": "Bot sẽ giúp bạn chọn!",
+    "usage": "pick <lựa chọn 1, lựa chọn 2, ...>",
+    "example": "pick chơi game, học bài"
+  },
+  {
+    "name": "ping",
+    "category": "info",
+    "description": "Returns bot and API latency in milliseconds.",
+    "usage": "ping"
+  },
+  {
+    "name": "random",
+    "aliases": [
+      "random",
+      "rd"
+    ],
+    "category": "random",
+    "description": "random",
+    "usage": " ",
+    "accessableby": "everyone"
+  },
+  {
+    "name": "steal-emoji",
+    "aliases": [
+      "steal",
+      "se"
+    ],
+    "category": "info"
+  },
+  {
+    "name": "taixiu",
+    "aliases": [
+      "taixiu",
+      "tx"
+    ],
+    "category": "info"
+  },
+  {
+    "name": "xoso",
+    "aliases": [
+      "xoso"
+    ],
+    "category": "info",
+    "description": "xoso",
+    "usage": " ",
+    "accessableby": "everyone"
+  },
+  {
+    "name": "greport",
+    "category": "report",
+    "args": true,
+    "description": "Please specify the bug. Example:\n`punch isn't working. It isn't mentioning the user I'm trying to punch`",
+    "usage": "Please specify the bug. Example:\n`punch isn't working. It isn't mentioning the user I'm trying to punch`"
+  },
+  {
+    "name": "reply",
+    "category": "report"
+  },
+  {
+    "name": "report",
+    "category": "report"
+  },
+  {
+    "name": "setreport",
+    "category": "report",
+    "usage": "setreport <#channel>",
+    "authorPermission": [
+      "MANAGE_GUILD"
+    ]
+  }
+]
